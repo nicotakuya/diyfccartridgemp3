@@ -11,7 +11,7 @@
 .segment "HEADER"
     .byte   $4E, $45, $53, $1A ; "NES" 
     .byte   $02                ; PRG-ROMバンク数(16KB x 2)
-    .byte   $04                ; CHR-ROMバンク数(8KB x 2)
+    .byte   $04                ; CHR-ROMバンク数(8KB x 4)
     .byte   $31                ; Mapper 3/Vetrical Mirroring
     .byte   $00                ; Mapper 3
     .byte   $00                ; PRG-RAMサイズ
