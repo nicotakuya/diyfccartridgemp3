@@ -7,7 +7,7 @@
 
 ボタンを押すとバンク（0～3）が切り替わります。
 
-## Hot to build
+## How to build
 
 開発環境はCC65です。build.batを実行すると、nesファイルが作成されます。
 
