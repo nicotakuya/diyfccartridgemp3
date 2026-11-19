@@ -1,11 +1,11 @@
-# Mapper3 test program for Famicom
+# Mapper3 test program for FC
 
 ## Overview
 ![screenshot](https://github.com/nicotakuya/diyfccartridgemp3/assets/5597377/1b25f838-36d2-45ca-88fc-a25b219e9974)
 
-バンク切り替えの実験をするプログラムです。
+マッパー3のバンク切り替えの実験をするファミコン用プログラムです。
 
-ボタンを押すとバンク（0～3）が切り替わります。
+コントローラーのボタンを押すとバンク（0～3）が切り替わります。
 
 ## How to build
 
