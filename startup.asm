@@ -3,7 +3,7 @@
 ;----------------------------------------------------------------------------
 .setcpu        "6502"
 .autoimport    on
-.IMPORTZP    sp
+.IMPORTZP    c_sp
 
 .global    _NesMain
 
@@ -25,9 +25,9 @@
     txs 
 
     lda    #$ff        ; スタックポインタ初期化2
-    sta    sp
+    sta    c_sp
     lda    #$03
-    sta    sp + 1
+    sta    c_sp + 1
 
     jsr    _NesMain    ; メイン関数を呼び出す
 .endproc

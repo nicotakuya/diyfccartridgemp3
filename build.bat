@@ -20,6 +20,6 @@ if %errorlevel% neq 0 goto owari
 %CCPATH%\ld65 -o %NESFILE% --config %CFGFILE% --obj %SRCFILE1%.o %SRCFILE2%.o %SRCFILE3%.o --lib %LIBFILE%
 if %errorlevel% neq 0 goto owari
 
-exit /b
+echo ÉrÉãÉhÇ…ê¨å˜ÇµÇ‹ÇµÇΩÅB
 :owari
 pause

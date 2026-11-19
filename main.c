@@ -16,7 +16,7 @@ const unsigned char btnname[] = "MAPPER3 TEST PROGRAM";
 
 
 //---- メイン関数
-char NesMain(void)
+void NesMain(void)
 {
     char i,x,y;
     char bank_old,bank_now;
@@ -65,7 +65,6 @@ char NesMain(void)
         }
         bg_scroll(0,0);  // BGスクロール
     }
-    return 0;
 }
 
 
